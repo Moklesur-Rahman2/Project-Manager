@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*** side header area ***/
+.side-header{
+    background-color: #3744BD;
+    padding: 16px;
+    height: 100vh;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.side-header .fa, .fas, .far{
+    /* color: #fff; */
+}
+.side-header ul{
+    list-style: none;
+    padding: 0;
+}
+.side-header ul li{
+    margin: 32px 0;
+}
+.side-header ul li a{
+    font-size: 18px;
+    padding: 8px;
+}
+
+.side-header .logo a{
+    font-size: 18px;
+    padding: 8px;
+}
+.side-header .log-out a{
+    font-size: 18px;
+    padding: 8px;
+}
+
+
+
+/*** add project design ***/
+.nav-bar{
+    padding: 32px;
+    min-width: 300px;
+}
+
+.nav-bar .add-project{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.nav-bar .board-menu .project-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.nav-bar .board-menu .project-item .name-icon i{
+    margin-right: 8px;
+}
+
+/*** Board area ***/
+.board{
+    background-color: #F9FAFC;
+    padding: 32px;
+}
+
+/**** container ***/
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*** Board Header Area ***/
+.board .board-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.board .search-area input{
+    border-radius: 50px;
+    border: 1px solid #F0F3F8;
+    background-color: #F0F3F8;
+    padding: 8px 32px;
+    min-width: 300px
+}
+.board .board-header .profile-area{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.board .board-header .profile-area img{
+    width: 40px;
+    margin: 0 8px 0 16px;
+}
+.board .board-header .profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
