@@ -80,6 +80,9 @@ body{
 
 
 /*** Board Header Area ***/
+.board{
+    width: 100%;
+}
 .board .board-header{
     display: flex;
     flex-direction: row;
@@ -108,4 +111,66 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+
+
+/*** invite people ***/
+.invite-people{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+.invite-people .peoples .people{
+    width: 40px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    margin-right: -15px;
+    height: 40px;
+
+}
+.invite-people .peoples{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.invite-people .total-people{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9FAFC;
+    border: 2px solid #E4E5EB;
+}
+.invite-people .invite-btn{
+    margin-left: 32px;
+    border: 2px solid #E4E5EB;
+    padding: 8px 16px;
+    border-radius: 50px;
+    color: #474748;
+}
+.invite-people .invite-btn i{
+    margin-right: 8px;
+}
+.short a{
+    color: #333;
+    font-size: 16px;
+    margin: 0 16px;
+}
+
+
+/*** task borad **/
+.task-board{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    grid-column-gap: 50px;
+}
+.task-board .task{
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
 }
