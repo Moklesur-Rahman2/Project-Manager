@@ -1,15 +1,24 @@
 body{
-    margin: 0;
     padding: 0;
+    margin: 32px 0;
+    background-color: #E6EAF1;
+}
+.container{
+    width: 80vw !important;
 }
 
-
-
+h1,
+h2,
+h3{
+    margin: 0;
+}
+a{
+    line-height: 0;
+}
 /*** side header area ***/
 .side-header{
     background-color: #3744BD;
     padding: 16px;
-    height: 100vh;
     display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -28,7 +37,7 @@ body{
 }
 .side-header ul li a{
     font-size: 18px;
-    padding: 8px;
+    color: #fff;
 }
 
 .side-header .logo a{
@@ -45,7 +54,8 @@ body{
 /*** add project design ***/
 .nav-bar{
     padding: 32px;
-    min-width: 300px;
+    min-width: 240px;
+    background-color: #fff;
 }
 
 .nav-bar .add-project{
@@ -113,7 +123,13 @@ body{
     justify-content: space-between;
 }
 
+.add-project i{
+    font-size: 24px;
 
+}
+.log-out i{
+    color: #F0F3F8;
+}
 
 /*** invite people ***/
 .invite-people{
@@ -171,6 +187,71 @@ body{
 }
 .task-board .task{
     width: 100%;
-    height: 200px;
     background-color: #fff;
+    padding: 16px;
+}
+.new-task{
+    background-color: #F0F3F8;
+    padding: 4px 16px;
+    border-radius: 50px;
+}
+.new-task i{
+    color: #3744BD;
+    margin-right: 8px;
+    font-size: 12px;
+    font-weight: 300px;
+}
+.new-task a{
+    color: #333;
+}
+.task-board .task-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.task-board .task .task-header{
+    margin-bottom: 16px !important;
+}
+.task-header .title{
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+}
+.task-header .title span{
+    color: #A6AAB7;
+    font-size: 20px;
+}
+.task-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.task-footer .peoples{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.task-footer .peoples .people{
+    width: 40px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    margin-right: -15px;
+    height: 40px;
+
+}
+.task-footer{
+    margin-top: 32px;
+}
+.task-footer i{
+    color: #A6AAB7;
+}
+.task .task-header i{
+    color: #A6AAB7;
+}
+.task .task-header i::before{
+    margin-right: 4px;
 }
